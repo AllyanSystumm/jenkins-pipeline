@@ -1,0 +1,16 @@
+{
+  "name": "env-welcome",
+  "version": "1.0.0",
+  "description": "Simple site that prints environment (dev/prod)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "ENV=dev node app.js",
+    "prod": "ENV=prod node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
